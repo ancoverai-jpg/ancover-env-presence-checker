@@ -1,0 +1,37 @@
+{
+  "retrieved": "2026-10-18",
+  "type": "PUBLIC_REPORTS_NOT_REPRODUCED",
+  "independence": "Three different authors across two project communities; two closed reports are historical.",
+  "reports": [
+    {
+      "repo": "docker/compose",
+      "id": 14356,
+      "url": "https://github.com/docker/compose/issues/14356",
+      "title": "[FEATURE] Declare sensitive variables and redact config output by default",
+      "created": "2026-10-17T14:50:31Z",
+      "updated": "2026-10-17T14:51:06Z",
+      "state": "open",
+      "author": "savinmikhail"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "id": 11271,
+      "url": "https://github.com/anthropics/claude-code/issues/11271",
+      "title": "[BUG] Security Bug Report: Claude Code Exposes Sensitive Environment Variables When Confused",
+      "created": "2025-11-08T18:16:34Z",
+      "updated": "2026-01-19T14:19:40Z",
+      "state": "closed",
+      "author": "cnighswonger"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "id": 21528,
+      "url": "https://github.com/anthropics/claude-code/issues/21528",
+      "title": "[FEATURE] Environment Variable Redaction for Hook Security",
+      "created": "2026-01-28T19:53:08Z",
+      "updated": "2026-03-08T14:24:43Z",
+      "state": "closed",
+      "author": "coygeek"
+    }
+  ]
+}
