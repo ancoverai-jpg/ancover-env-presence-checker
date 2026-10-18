@@ -13,3 +13,7 @@ A separate clean source copy ran all tests and the documented example without in
 Evaluation interpretation: the predeclared existence-only baseline cannot distinguish missing or empty names in a present file. The checker provides the three seeded states while omitting a synthetic credential sentinel. This is not an agent A/B study, productivity benchmark or comparison against the full capabilities of dotenv-safe/dotenv-linter.
 
 Stable host compatibility is not claimed. The dependency-free CLI may be published as experimental only if its actual checks and exact-file review pass and the report preserves unavailable coverage. CI failures, leaked values or input mutation are blocking defects.
+
+## Remote execution evidence
+
+[GitHub Actions run 39158163254](https://github.com/ancoverai-jpg/ancover-env-presence-checker/actions/runs/39158163254) completed successfully on Windows and Ubuntu, for both Node 22 and Node 24. Each job ran the 13 tests and the example command. Commit a886deca58aee1c408b48a93adca3c1ffc57ace6 contained the initial 21 source files; a fresh public Git clone matched them byte-for-byte with zero differences. This establishes the remote CLI matrix and exact source publication, not full agent runtime compatibility.
