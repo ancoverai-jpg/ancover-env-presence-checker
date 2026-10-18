@@ -1,0 +1,1 @@
+{"name":"ancover-env-presence-checker","version":"0.1.0","private":true,"type":"module","license":"MIT","engines":{"node":">=22"},"scripts":{"test":"node --test tests/check.test.mjs","demo":"node skills/env-presence-check/scripts/check.mjs --contract examples/contract.json --env-file examples/environment.sample"}}

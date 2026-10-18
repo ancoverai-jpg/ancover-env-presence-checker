@@ -1,0 +1,1 @@
+{"$schema":"https://agent-plugins.org/schemas/1.0.0/plugin.schema.json","name":"ancover-env-presence-checker","version":"0.1.0","description":"Check selected environment variable presence without reporting values. Experimental; host runtime coverage is separate.","author":{"name":"Ancover"},"license":"MIT"}
