@@ -2,6 +2,8 @@
 
 **Experimental.** Check a reviewed list of environment variable names without printing their values. Useful when a developer or coding agent needs to diagnose missing configuration and share a names-only report.
 
+[![Validation](https://github.com/ancoverai-jpg/ancover-env-presence-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/ancoverai-jpg/ancover-env-presence-checker/actions/workflows/ci.yml)
+
 [Português do Brasil](README.pt-BR.md) · [Specification and alternatives](docs/specification.md) · [Validation](docs/validation.md)
 
 Requires **Node.js 22+**. There are no package dependencies, install scripts, servers, accounts or API keys to configure.
@@ -11,6 +13,8 @@ Requires **Node.js 22+**. There are no package dependencies, install scripts, se
 From this source directory:
 
 ```sh
+git clone https://github.com/ancoverai-jpg/ancover-env-presence-checker.git
+cd ancover-env-presence-checker
 node --test tests/check.test.mjs
 node skills/env-presence-check/scripts/check.mjs --contract examples/contract.json --env-file examples/environment.sample
 ```
